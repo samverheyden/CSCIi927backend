@@ -1,0 +1,8 @@
+CREATE TABLE `callender` (
+  `Event title` varchar(30) NOT NULL,
+  `Event participant` varchar(30) NOT NULL,
+  `Event time` datetime DEFAULT NULL,
+  `Event description` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`Event title`,`Event participant`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+//create  table sttement example for the claeder 
